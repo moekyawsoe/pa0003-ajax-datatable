@@ -1,0 +1,10 @@
+@import url('./library/bootstrap/css/bootstrap.min.css');
+@import url('./library/fontawesome/css/all.min.css');
+@import url('./library/datatable/datatables-bs4/css/dataTables.bootstrap4.min.css');
+@import url('./library/datatable/datatables-responsive/css/responsive.bootstrap4.min.css');
+@import url('./library/datatable/datatables-buttons/css/buttons.bootstrap4.min.css');
+@import url('./library/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css');
+@import url('./library/toastr/toastr.min.css');
+@import url('./library/flag-icon-css/css/flag-icon.min.css');
+@import url('./library/jquery-ui/jquery-ui.css');
+@import url('./library/sweetalert2/sweetalert2.min.css');

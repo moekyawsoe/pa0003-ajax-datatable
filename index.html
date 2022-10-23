@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Posts</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/plugins/datatable/datatables.css">
+    <link rel="stylesheet" href="assets/plugins/datatable/AutoFill-2.4.0/css/autoFill.bootstrap5.min.css">
+    <link rel="stylesheet" href="assets/plugins/datatable/Buttons-2.2.3/css/buttons.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/datatable/Responsive-2.3.0/css/responsive.bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="px-3 py-2 text-bg-dark">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-between justify-content-lg-between">
+              <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <i class="fas fa-server"></i>
+              </a>
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="#" class="nav-link text-secondary">
+                    <i class="fas fa-tv"></i> Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-secondary">
+                    <i class="fas fa-th"></i>
+                    Dashboard
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="container mx-auto pt-5">
+        <table id="postsTable" class="table table-hover">
+            <thead>
+                <tr>
+                    <th>UserID</th>
+                    <th>PostID</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+    </div>
+    
+
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/fontawesome/js/all.min.js"></script>
+    <script src="assets/plugins/datatable/datatables.js"></script>
+    <script src="assets/plugins/datatable/AutoFill-2.4.0/js/autoFill.bootstrap5.min.js"></script>
+    <script src="assets/plugins/datatable/pdfmake-0.1.36/pdfmake.js"></script>
+    <script src="assets/plugins/datatable/Buttons-2.2.3/js/buttons.bootstrap5.min.js"></script>
+    <script src="assets/plugins/datatable/Responsive-2.3.0/js/responsive.bootstrap5.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
